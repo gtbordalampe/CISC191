@@ -124,6 +124,8 @@
                 <version>${jgitflow-maven-plugin.version}</version>
                 <configuration>
                     <noDeploy>false</noDeploy>
+                    <!-- clean install and deploy-->
+                    <goals>clean install deploy</goals>
                     <!-- Allows untracked files -->
                     <allowUntracked>true</allowUntracked>
                     <!-- Enable this to push to origin using SSH keys -->
