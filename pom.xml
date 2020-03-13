@@ -126,11 +126,7 @@
                 <version>${jgitflow-maven-plugin.version}</version>
                 <configuration>
                     <noDeploy>false</noDeploy>
-<<<<<<< HEAD
-                    <!-- allows clean install and deploy more smooth -->
-=======
                     <!-- clean install and deploy-->
->>>>>>> 4916afba32cbfa5023c35fb06b72d925609b2037
                     <goals>clean install deploy</goals>
                     <!-- Allows untracked files -->
                     <allowUntracked>true</allowUntracked>
