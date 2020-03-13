@@ -1,7 +1,11 @@
 package edu.sdccd.cisc191;
 
-public class lab2 {
-    public static void main(String[] args) {
+import java.util.*;
 
-    }
+public class lab2 {
+
+	public static void main(final String[] args) {
+
+	}
+
 }
